@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Injected code test | On BSW",
+    "version": "0.1.0",
+    "action": {},
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "service-worker.js",
+        "type": "module"
+    },
+    "commands": {
+        "sample": {
+            "suggested_key": {
+                "default": "Alt+X"
+            },
+            "description": "Sample command"
+        }
+    }
+}
